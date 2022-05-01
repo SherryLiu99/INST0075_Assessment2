@@ -1,3 +1,6 @@
 # INST0075_Assessment2
-## Assessment test
-import numpy as np
+###1. Install requirements:
+··· python
+pip install -r requirements.txt
+python -m spacy download en_core_web_lg
+···
