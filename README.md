@@ -1,6 +1,6 @@
 # Food2vec and Foodbert for Food Ingredient Substitution
 ### <center> Student Number: 21070178 &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; Lecturer: Dr Luke Dickens</center>  
-##### <center> INST0075: Machine Learning Methods &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; Assessment: Report </center>
+### <center> INST0075: Machine Learning Methods &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; Assessment: Report </center>
 #### 1. External libraries
 - python 3.7
 ```python
