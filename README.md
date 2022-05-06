@@ -12,6 +12,7 @@ python -m spacy download en_core_web_lg
 - The data we used is Recipe1K, which is sampled from Recipe1M+, is provided in data/normalization folder.
 - We  use an ingredient dataset provided by Yummly (Yummly, 2015) as the starting point to create a list of all ingredients. it's provided in data/normalization folder.
 - The ground truth file 'ground_truth_substitutes_dict.json' is not open to public, I contacted the author to obtain this file only use for this assessment.
-#### 3. Download the Bert models
+#### 3. Download the Bert models and file
 - Download https://github.com/ChantalMP/Exploiting-Food-Embeddings-for-Ingredient-Substitution/releases/download/0.1/foodbert_data.zip， unzip it and place the 'mlm_output' folder in ./data.
 - Download https://github.com/ChantalMP/Exploiting-Food-Embeddings-for-Ingredient-Substitution/releases/download/0.1/foodbert_embeddings_data.zip unzip it and place the file ‘food_embeddings_dict_foodbert.pkl’ in ./foodbert_embeddings/data
+- __I'm really sorry to bother you to download the model and file. The training time of Bert model is too long. It is still more than one day even though I greatly reduce the data. Direct download it can save a lot of time. Food_embeddings_dict_foodbert.pkl is the file provided by the author, I cannot delete it, sorry for it is over 5MB, thank you for downloading.__
