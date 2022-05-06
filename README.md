@@ -13,4 +13,5 @@ python -m spacy download en_core_web_lg
 - We  use an ingredient dataset provided by Yummly (Yummly, 2015) as the starting point to create a list of all ingredients. it's provided in data/normalization folder.
 - The ground truth file 'ground_truth_substitutes_dict.json' is not open to public, I contacted the author to obtain this file only use for this assessment.
 #### 3. Download the Bert models
-- Download https://github.com/ChantalMP/Exploiting-Food-Embeddings-for-Ingredient-Substitution/releases/download/0.1/foodbert_data.zip and place the 'mlm_output' folder content in ./data.
+- Download https://github.com/ChantalMP/Exploiting-Food-Embeddings-for-Ingredient-Substitution/releases/download/0.1/foodbert_data.zip， unzip it and place the 'mlm_output' folder in ./data.
+- Download https://github.com/ChantalMP/Exploiting-Food-Embeddings-for-Ingredient-Substitution/releases/download/0.1/foodbert_embeddings_data.zip unzip it and place the file ‘food_embeddings_dict_foodbert.pkl’ in ./foodbert_embeddings/data
